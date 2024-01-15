@@ -61,7 +61,7 @@ function create_template() {
 #on the Proxmox system
 export ssh_keyfile=/root/id_rsa.pub
 #Username to create on VM template
-export username=apalrd
+export username=user
 
 #Name of your storage
 export storage=local-lvm
