@@ -123,7 +123,7 @@ centos() {
         "centos7")
             wget https://cloud.centos.org/centos/7/images/CentOS-7-x86_64-GenericCloud.qcow2.xz
             xz -d -v CentOS-7-x86_64-GenericCloud.qcow2.xz
-            create_template $vmnum "tmp-centos-7" "CentOS-7-x86_64-GenericCloud.qcow2.qcow2"
+            create_template $vmnum "tmp-centos-7" "CentOS-7-x86_64-GenericCloud.qcow2"
             ;;
         "centos8")
             wget https://cloud.centos.org/centos/8/x86_64/images/CentOS-8-GenericCloud-8.1.1911-20200113.3.x86_64.qcow2
