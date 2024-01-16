@@ -121,8 +121,8 @@ ubuntu() {
 centos() {
     case $1 in
         "centos7")
-            wget "https://cloud.centos.org/centos/7/images/CentOS-7-ppc64le-GenericCloud-2211.qcow2"
-            create_template $vmnum "tmp-centos-7" "CentOS-7-ppc64le-GenericCloud-2211.qcow2"
+            wget "https://cloud.centos.org/centos/7/images/CentOS-7-x86_64-GenericCloud-2211.qcow2"
+            create_template $vmnum "tmp-centos-7" "CentOS-7-x86_64-GenericCloud-2211.qcow2"
             ;;
         "centos8")
             wget "https://cloud.centos.org/centos/8/x86_64/images/CentOS-8-GenericCloud-8.1.1911-20200113.3.x86_64.qcow2"
