@@ -4,9 +4,13 @@ Thank's [apalrd](https://www.apalrd.net/posts/2023/pve_cloud/ "pve cloud script"
 
 ***How to use***
 
-At first you need install make to your proxmox (login from root):
+At first you need install make to your proxmox:
 
-``apt install make``
+1. copy your public ssh key (``cat ~/.ssh/id_rsa.pub``)
+2. login in proxmox from root (``ssh root@proxmox_ip``)
+3. install make and nano utill (``apt install make nano``)
+4. create pubkey copy in nano (``nano ~/id_rsa.pub``)
+5. past your public key and save file.
 
 After that you can clone this script to your root folder:
 
