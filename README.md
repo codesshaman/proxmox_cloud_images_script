@@ -23,7 +23,9 @@ And go to this folder:
 Now you can use make commands for installation:
 
 ``make help`` - get reference
+
 ``make debian13`` or ``make d13`` - install debian 13
+
 ``make centos9`` or ``make c9`` - install centos 9
 
 etc...
