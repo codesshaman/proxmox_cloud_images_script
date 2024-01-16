@@ -12,6 +12,7 @@ all:
 help:
 	@echo -e "$(OK)==== Все команды для конфигурации ${name} ===="
 	@echo -e "$(WARN)- make				: Launch configuration"
+	@echo -e "$(WARN)- make	help			: Get reference"
 	@echo -e "$(WARN)- make debian10 (d10)		: Create debian 10 template"
 	@echo -e "$(WARN)- make debian11 (d11)		: Create debian 11 template"
 	@echo -e "$(WARN)- make debian12 (d12)		: Create debian 12 template"
